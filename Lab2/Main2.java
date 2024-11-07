@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class Main {
+public class Main2 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Enter a number that is either positive, even, and a multiple of 7 OR prime: ");

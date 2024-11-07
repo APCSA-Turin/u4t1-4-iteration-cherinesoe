@@ -1,6 +1,6 @@
-public class StringLoops {
+public class StringLoopsFirst {
     // default constructor; no instance variables
-    public StringLoops() { }
+    public StringLoopsFirst() { }
   
     /* Returns the number of times "character" appears in "searchString"
        This should be NON-case sensitive! 
