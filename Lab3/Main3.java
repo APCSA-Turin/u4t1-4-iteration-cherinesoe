@@ -1,16 +1,13 @@
 public class Main3 {
-    public static void main(String[] args) {
-      StringLoops loops = new StringLoops();
-      loops.multiPrint("hello", 4);
-      loops.multiPrint("beetlejuice", 3);
-      loops.multiPrint("hi there", 2);
-      loops.multiPrint("boop!", 1);
-      loops.multiPrint("dance party", 0);
-      loops.multiPrint("anything", -4);
-    
-    
-    
-      
+  public static void main(String[] args) {
+      // points (2, 5) and (4, 9)
+      LinearEquation eq = new LinearEquation(2, 5, 4, 9);
+      System.out.println("slope: " + eq.slope());
+      System.out.println("y-int: " + eq.yIntercept());
 
-    }
+      // different object using same points (2, 5) and (4, 9)
+      LinearEquation eq2 = new LinearEquation(2, 5, 4, 9);
+      System.out.println("y-int: " + eq2.yIntercept());
+      System.out.println("slope: " + eq2.slope());
+  }
 }
